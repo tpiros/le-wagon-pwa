@@ -1,0 +1,19 @@
+{
+  "name": "pwa-news",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Tamas Piros",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "4.16.3",
+    "restify": "^7.7.0",
+    "restify-cors-middleware": "1.1.0",
+    "web-push": "3.3.1"
+  }
+}
